@@ -88,7 +88,7 @@ export function Footer() {
                 >
                   Rapid Agro Care
                 </Link>
-                <span className="block text-[11px] text-stone-700">Fish Feed &amp; Veterinary Medicine</span>
+                <span className="block text-[11px] text-stone-700">Fish Feed &amp; Fish Cultivation</span>
               </li>
             </ul>
           </div>

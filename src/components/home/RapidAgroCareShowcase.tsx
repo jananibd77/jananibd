@@ -44,26 +44,26 @@ const agroDivisions: AgroDivision[] = [
     highlight: "পানিতে দূষণমুক্ত ও দ্রুত হজমযোগ্য—মাছের ওজন বৃদ্ধি ও চাষীদের সর্বোচ্চ মুনাফার নির্ভরযোগ্য নাম।",
   },
   {
-    id: "veterinary",
+    id: "fish-cultivation",
     num: "02",
     bengaliNum: "০২",
-    title: "Veterinary Healthcare & Livestock Medicines",
-    bengaliTitle: "ভেটেরিনারি ওষুধ, ভ্যাকসিন ও প্রাণিসম্পদ সুরক্ষা",
-    subtitle: "Certified pharmaceutical remedies and dietary premixes for cattle, dairy & poultry",
-    bengaliSubtitle: "গবাদি পশু, ডেইরি খামার ও পোল্ট্রির জন্য আন্তর্জাতিক মানের প্রতিরোধক ও আরোগ্যকারী ওষুধ",
-    image: "/images/rapid_agro_veterinary.jpg",
-    alt: "Certified veterinary healthcare medicines, antibiotics, and nutritional supplements for livestock",
+    title: "Commercial Fish Cultivation & Modern Aquaculture",
+    bengaliTitle: "উন্নত মৎস্য চাষ ও বৈজ্ঞানিক ঘের প্রকল্প",
+    subtitle: "Scientific pond aquaculture, carp polyculture, and modern fish farming practices",
+    bengaliSubtitle: "রুই, কাতলা, পাঙ্গাশ ও তেলাপিয়া চাষে আধুনিক বৈজ্ঞানিক ব্যবস্থাপনা, পরিচর্যা ও প্রযুক্তি",
+    image: "/images/rapid_agro_fish_cultivation.jpg",
+    alt: "Commercial freshwater fish cultivation pond with Bengali farmers feeding carp and managing aquaculture in Manikganj",
     summary:
-      "Safeguarding rural livestock vitality across central Bangladesh. We distribute certified veterinary antibiotics, broad-spectrum anthelmintics, liver stimulants, calcium-phosphorus tonics, and electrolyte solutions through temperature-monitored distribution chains directly to registered veterinarians, dairy cooperatives, and farmsteads.",
+      "Pioneering modern freshwater aquaculture across central Bangladesh. Rapid Agro Care operates and supports scientifically designed pond ecosystems, commercial carp polyculture, and intensive farming projects. We implement modern aeration, water quality monitoring, fingerling nursery management, and balanced nutrition that deliver exceptional fish growth and harvest yield for local fisheries.",
     bengaliSummary:
-      "ডেইরি ও পোল্ট্রি খামার সুরক্ষায় উন্নত মানের ভেটেরিনারি অ্যান্টিবায়োটিক, কৃমিনাশক, ক্যালসিয়াম ও লিভার টনিকের সুশৃঙ্খল পরিবেশন।",
+      "মানিকগঞ্জ ও পার্শ্ববর্তী নদীমাতৃক অঞ্চলে আধুনিক পদ্ধতিতে রুই, কাতলা, মৃগেল ও তেলাপিয়া চাষ। বৈজ্ঞানিক পদ্ধতিতে পানির গুণগত মান নিয়ন্ত্রণ, সঠিক ঘনত্বে পোনা মজুত ও সুষম পরিচর্যায় মৎস্যচাষীদের সর্বোচ্চ উৎপাদন ও লাভজনক ফলন নিশ্চিতকরণ।",
     specs: [
-      { label: "Therapeutic Scope", value: "Anthelmintics, Antibiotics, Vitamins & Electrolytes" },
-      { label: "Target Livestock", value: "Dairy Cattle, Goats, Sheep, Commercial Poultry" },
-      { label: "Storage Protocol", value: "Certified Cold-Chain & Climate-Controlled Depot" },
-      { label: "Regulatory Standard", value: "DGDA & Livestock Department Certified" },
+      { label: "Pond Ecosystem", value: "Commercial Freshwater Ponds & Delta Gher Projects" },
+      { label: "Cultivated Species", value: "Rohu, Katla, Mrigal, Tilapia, Pangas & Carp Polyculture" },
+      { label: "Scientific Methods", value: "Water Quality Monitoring, Aeration & Balanced Nutrition" },
+      { label: "Harvest & Productivity", value: "High-Yield Density & Optimal Feed Conversion Ratio (FCR)" },
     ],
-    highlight: "গ্রামীণ ডেইরি ও খামারিদের অর্থনৈতিক নিরাপত্তার সহায়ক—নিরাপদ ও নির্ভরযোগ্য প্রাণিসম্পদ চিকিৎসা।",
+    highlight: "উন্নত জাতের পোনা ও বৈজ্ঞানিক পরিচর্যায় সমৃদ্ধ মৎস্য চাষ—স্থানীয় খাদ্য নিরাপত্তা ও চাষীদের অর্থনৈতিক সমৃদ্ধির প্রতীক।",
   },
   {
     id: "distribution-hub",
@@ -114,7 +114,7 @@ export function RapidAgroCareShowcase() {
             </div>
 
             <p className="text-base sm:text-lg text-stone-700 font-sans leading-relaxed pt-1 max-w-2xl">
-              আমদানিকারক ও পরিবেশক: উন্নত মানের মাছের খাদ্য, পুষ্টি উপাদান ও বিশ্বস্ত ভেটেরিনারি ওষুধ।
+              উন্নত মানের মাছের খাদ্য, পুষ্টি উপাদান ও আধুনিক বৈজ্ঞানিক মৎস্য চাষ প্রকল্প।
               মানিকগঞ্জের সাকরাইল থেকে গ্রামীণ কৃষি ও মৎস্য সম্পদের অর্থনৈতিক সমৃদ্ধি গড়ার অগ্রদূত।
             </p>
           </div>
@@ -125,8 +125,8 @@ export function RapidAgroCareShowcase() {
               <span className="w-2 h-2 bg-[#2B5329] rotate-45 shrink-0" />
               <span>Sakrail, Gorpara, Manikganj</span>
             </div>
-            <p className="text-stone-900 font-semibold text-sm">Importer &amp; Primary Distributor</p>
-            <p className="text-stone-600">Aqua Feed &amp; Veterinary Healthcare</p>
+            <p className="text-stone-900 font-semibold text-sm">Aquaculture Pioneer &amp; Distributor</p>
+            <p className="text-stone-600">Aqua Feed &amp; Fish Cultivation</p>
             <p className="text-[#2B5329] font-semibold pt-0.5">Direct Farmgate Supply Network</p>
           </div>
         </div>
@@ -242,7 +242,7 @@ export function RapidAgroCareShowcase() {
               Commercial Dealership &amp; Farm Inquiries
             </h4>
             <p className="text-sm sm:text-base text-stone-600 font-sans">
-              For dealership partnerships, bulk fish feed supply, or veterinary medicine distribution
+              For dealership partnerships, bulk fish feed supply, or commercial fish cultivation projects
               in Manikganj and neighboring districts, connect with our central agro depot.
             </p>
           </div>

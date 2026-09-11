@@ -94,10 +94,10 @@ const historicalNarratives: Record<string, { lineage: string; techniqueDepth: st
   },
   "prod-agro-02": {
     lineage:
-      "Livestock and dairy farming constitute the backbone of rural family wealth across Manikganj. Rapid Agro Care distributes trusted veterinary healthcare solutions to safeguard cattle health, prevent seasonal delta livestock ailments, and support dairy cooperatives.",
+      "Fish cultivation and commercial aquaculture form the economic heartbeat of rural livelihoods across Manikganj and the delta floodplains. Rapid Agro Care operates modern freshwater fish farming projects, carp polyculture, and nursery management to elevate aquaculture productivity.",
     techniqueDepth:
-      "Comprehensive certified antibiotics, anthelmintics, liver tonics, and electrolyte solutions distributed through verified temperature-monitored supply chains directly to rural veterinarians and farmers in Manikganj.",
-    detailImage: "/images/rapid_agro_care.jpg",
+      "Implementation of scientific pond preparation, optimal stocking density, dissolved oxygen aeration management, and balanced nutrition that ensure rapid, healthy fish growth and superior harvest yield for local fisheries.",
+    detailImage: "/images/rapid_agro_fish_cultivation.jpg",
   },
   "prod-kantha-01": {
     lineage:

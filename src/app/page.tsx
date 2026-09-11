@@ -26,7 +26,7 @@ export default function Home() {
       </div>
 
       {/* 4. PART 3: র‍্যাপিড এগ্রো কেয়ার (Rapid Agro Care) — তৃতীয় উইং */}
-      {/* Features: মৎস্য খাদ্য ও একোয়াকালচার, ভেটেরিনারি ওষুধ ও প্রাণিসম্পদ সুরক্ষা, আঞ্চলিক সরবরাহ নেটওয়ার্ক */}
+      {/* Features: মৎস্য খাদ্য ও একোয়াকালচার, উন্নত মৎস্য চাষ ও বৈজ্ঞানিক ঘের প্রকল্প, আঞ্চলিক সরবরাহ নেটওয়ার্ক */}
       <div id="rapid-agro" className="w-full scroll-mt-20">
         <RapidAgroCareShowcase />
       </div>

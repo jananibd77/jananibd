@@ -45,7 +45,7 @@ export default function AboutPage() {
       title: "Rapid Agro Care Initiative",
       bengaliTitle: "র‍্যাপিড এগ্রো কেয়ার",
       description:
-        "Expanded into regional agricultural security, importing and distributing certified aquaculture fish feeds and veterinary medicines to empower farming communities.",
+        "Expanded into regional aquaculture security, importing and distributing certified fish feeds and pioneering modern commercial fish cultivation projects.",
     },
   ];
 
@@ -85,10 +85,10 @@ export default function AboutPage() {
     {
       num: "05",
       bengaliNum: "০৫",
-      title: "Rural Agricultural Fortification",
-      bengaliTitle: "কৃষি ও মৎস্য সম্পদের পুষ্টি",
+      title: "Aquaculture & Food Security Fortification",
+      bengaliTitle: "উন্নত মৎস্য চাষ ও পুষ্টি নিরাপত্তা",
       content:
-        "Through Rapid Agro Care, we bolster rural food security by distributing scientifically formulated aqua feeds and veterinary solutions to local farmers and livestock keepers.",
+        "Through Rapid Agro Care, we bolster rural food security by distributing scientifically formulated aqua feeds and pioneering commercial freshwater fish cultivation projects across Manikganj.",
     },
     {
       num: "06",

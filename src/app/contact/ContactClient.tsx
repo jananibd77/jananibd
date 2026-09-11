@@ -15,7 +15,7 @@ export function ContactClient() {
   const [formData, setFormData] = useState(() => {
     let concern = "M/S Janani Craft & Fashion (Exclusive Panjabi & Fatua)";
     if (initialConcern === "rapid-agro-care") {
-      concern = "Rapid Agro Care (Fish Feed & Veterinary Medicine)";
+      concern = "Rapid Agro Care (Fish Feed & Fish Cultivation)";
     } else if (initialConcern === "weaving-factory") {
       concern = "M/S Janani Weaving Factory (Endi Fabric, H/S Sharee & Orna)";
     }
@@ -72,7 +72,7 @@ export function ContactClient() {
       role: "Agro Distribution Depot",
       location: "Gorpara, Manikgonj",
       image: "/images/rapid_agro_care.jpg",
-      focus: "Aqua Culture Feed & Veterinary Healthcare",
+      focus: "Aquaculture Feed & Commercial Fish Cultivation",
     },
   ];
 
@@ -298,8 +298,8 @@ export function ContactClient() {
                     <option value="M/S Janani Weaving Factory (Endi Fabric, H/S Sharee & Orna)">
                       Janani Weaving Factory (Endi Fabric &amp; Sarees)
                     </option>
-                    <option value="Rapid Agro Care (Fish Feed & Veterinary Medicine)">
-                      Rapid Agro Care (Fish Feed &amp; Veterinary)
+                    <option value="Rapid Agro Care (Fish Feed & Fish Cultivation)">
+                      Rapid Agro Care (Fish Feed &amp; Fish Cultivation)
                     </option>
                     <option value="Executive Management & Chamber Matters">
                       Executive Management (General Chamber Matters)
