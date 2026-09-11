@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  /* Canvas & Typography — Pure White Luxury Theme */
+  --background: #FFFFFF; /* Pure Crisp White */
+  --foreground: #111827; /* Deep Obsidian Charcoal */
+
+  /* Traditional Craft Material Palette */
+  --color-terracotta: #A84A28; /* Pora Mati / Baked Earth */
+  --color-terracotta-dark: #8B381A;
+  --color-terracotta-soft: #D97750;
+
+  --color-brass: #B88E3E; /* Dhamrai Kansha & Antique Brass */
+  --color-brass-light: #D4AF37;
+  --color-brass-muted: #8A6626;
+
+  --color-indigo-river: #192A45; /* Bengal Natural Neel */
+  --color-indigo-midnight: #111C2E;
+
+  --color-surface: #FFFFFF;
+  --color-surface-subtle: #F9FAFB;
+  --color-surface-muted: #F3F4F6;
+
+  --color-border-hairline: #E5E7EB;
+  --color-border-subtle: #D1D5DB;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-terracotta: var(--color-terracotta);
+  --color-terracotta-dark: var(--color-terracotta-dark);
+  --color-terracotta-soft: var(--color-terracotta-soft);
+
+  --color-brass: var(--color-brass);
+  --color-brass-light: var(--color-brass-light);
+  --color-brass-muted: var(--color-brass-muted);
+
+  --color-indigo: var(--color-indigo-river);
+  --color-indigo-midnight: var(--color-indigo-midnight);
+
+  --color-surface: var(--color-surface);
+  --color-surface-subtle: var(--color-surface-subtle);
+  --color-surface-muted: var(--color-surface-muted);
+
+  --color-border-hairline: var(--color-border-hairline);
+  --color-border-subtle: var(--color-border-subtle);
+
+  --font-serif: var(--font-cormorant), Georgia, Cambria, serif;
+  --font-serif-bengali: 'Noto Serif Bengali', var(--font-cormorant), serif;
+  --font-sans: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+}
+
+html {
+  font-size: 17px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Minimalist luxury utility accents */
+.border-hairline {
+  border-width: 1px;
+  border-color: var(--color-border-hairline);
+}
+
+.kantha-stitch {
+  border-style: dashed;
+  border-width: 1px;
+  border-color: var(--color-border-subtle);
+}
+
+/* Apple Glassmorphism Utilities */
+.apple-glass {
+  background: rgba(255, 255, 255, 0.62);
+  backdrop-filter: blur(28px) saturate(180%);
+  -webkit-backdrop-filter: blur(28px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  box-shadow: 
+    0 8px 32px -4px rgba(0, 0, 0, 0.05),
+    0 2px 10px -2px rgba(0, 0, 0, 0.03),
+    inset 0 1px 1.5px 0 rgba(255, 255, 255, 0.9);
+}
+
+.apple-glass-scrolled {
+  background: rgba(255, 255, 255, 0.84);
+  backdrop-filter: blur(36px) saturate(190%);
+  -webkit-backdrop-filter: blur(36px) saturate(190%);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 
+    0 14px 40px -4px rgba(0, 0, 0, 0.08),
+    0 4px 12px -2px rgba(0, 0, 0, 0.04),
+    inset 0 1px 1.5px 0 rgba(255, 255, 255, 0.95);
+}
+
+.apple-glass-card {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(32px) saturate(180%);
+  -webkit-backdrop-filter: blur(32px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 
+    0 24px 48px -8px rgba(0, 0, 0, 0.12),
+    0 8px 20px -4px rgba(0, 0, 0, 0.04),
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.9);
+}
+
+.apple-glass-pill {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+@keyframes floatEnter {
+  from {
+    opacity: 0;
+    transform: translateY(-8px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-float-enter {
+  animation: floatEnter 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

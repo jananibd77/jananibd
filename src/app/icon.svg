@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Background with subtle luxury rounded corners -->
+  <rect width="512" height="512" rx="80" fill="#14201A"/>
+  <!-- Hairline Antique Brass Border -->
+  <rect x="6" y="6" width="500" height="500" rx="74" stroke="#B88E3E" stroke-width="6"/>
+  
+  <!-- 4 Interlocking Lotus Petal / Sacred Knot Loops -->
+  <g stroke="#DEB658" stroke-width="16">
+    <!-- North -->
+    <ellipse cx="256" cy="184" rx="98" ry="98"/>
+    <!-- South -->
+    <ellipse cx="256" cy="328" rx="98" ry="98"/>
+    <!-- West -->
+    <ellipse cx="184" cy="256" rx="98" ry="98"/>
+    <!-- East -->
+    <ellipse cx="328" cy="256" rx="98" ry="98"/>
+  </g>
+  
+  <!-- Diagonal Weave Accents -->
+  <g stroke="#DEB658" stroke-width="9" stroke-linecap="round">
+    <line x1="204" y1="204" x2="116" y2="116"/>
+    <line x1="308" y1="204" x2="396" y2="116"/>
+    <line x1="204" y1="308" x2="116" y2="396"/>
+    <line x1="308" y1="308" x2="396" y2="396"/>
+  </g>
+  
+  <!-- Cardinal Dots -->
+  <g fill="#DEB658">
+    <circle cx="256" cy="56" r="10"/>
+    <circle cx="256" cy="456" r="10"/>
+    <circle cx="56" cy="256" r="10"/>
+    <circle cx="456" cy="256" r="10"/>
+  </g>
+  
+  <!-- Central Pora Mati Terracotta Diamond Core -->
+  <polygon points="256,184 328,256 256,328 184,256" fill="#AF4E2A"/>
+  
+  <!-- Inner Antique Gold Diamond Point -->
+  <polygon points="256,230 282,256 256,282 230,256" fill="#DEB658"/>
+</svg>
