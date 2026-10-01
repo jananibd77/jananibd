@@ -29,7 +29,7 @@ export default function AboutPage() {
       title: "M/S Janani Weaving Factory",
       bengaliTitle: "উইভিং ফ্যাক্টরির পদযাত্রা",
       description:
-        "Established dedicated artisan weaving sheds producing superfine Endi silk fabric (Than Kapor), heirloom Half-Silk (H/S) Sarees, and delicately woven Ornas.",
+        "Established dedicated artisan weaving sheds producing superfine Endi silk fabric (Than Kapor), signature Half-Done (H/S) Sarees (14 Haat / 7 Yards), and delicately woven Ornas.",
     },
     {
       year: "Atelier",
@@ -475,9 +475,12 @@ export default function AboutPage() {
                 <span className="bg-white border border-stone-200 px-3 py-1.5 rounded-[1px]">
                   📍 Sakrail, Gorpara, Manikgonj
                 </span>
-                <span className="bg-white border border-stone-200 px-3 py-1.5 rounded-[1px]">
-                  📞 01713-574686
-                </span>
+                <a
+                  href="tel:01768109024"
+                  className="bg-white border border-[#B88E3E]/60 text-stone-900 hover:text-[#A84A28] font-bold px-3 py-1.5 rounded-[1px] transition-colors"
+                >
+                  📞 01768-109024
+                </a>
                 <span className="bg-white border border-stone-200 px-3 py-1.5 rounded-[1px] break-all sm:break-normal">
                   ✉️ jananibd77@gmail.com
                 </span>

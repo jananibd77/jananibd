@@ -953,7 +953,7 @@ export function EndiFabricExhibition({ product }: EndiFabricExhibitionProps) {
               <div className="relative aspect-4/3 w-full overflow-hidden rounded-[1px]">
                 <Image
                   src="/images/saree_royalblue_tant_mannequin.png"
-                  alt="Half-Silk Traditional Handloom Saree"
+                  alt="Half-Done Handloom Saree (14 Haat) — Janani Weaving Factory"
                   fill
                   sizes="30vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -961,10 +961,10 @@ export function EndiFabricExhibition({ product }: EndiFabricExhibitionProps) {
               </div>
               <div className="space-y-1">
                 <h3 className="font-serif text-lg text-stone-900 group-hover:text-[#A84A28] transition-colors">
-                  Half-Silk Handloom Saree
+                  Half-Done Handloom Saree (14 Haat)
                 </h3>
                 <p className="text-xs text-stone-600 font-sans line-clamp-2">
-                  Luminous mulberry silk warp with combed cotton weft and extra-weft temple zari border.
+                  50% Silk + 50% Cotton handloom weave with 36&quot; Rayon-Silk blouse piece and extra-weft polyester border.
                 </p>
               </div>
             </Link>

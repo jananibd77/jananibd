@@ -18,13 +18,14 @@ export async function generateStaticParams() {
   return [
     ...base,
     { slug: "half-silk-traditional-handloom-saree" },
+    { slug: "half-done-sharee" },
   ];
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const effectiveSlug =
-    slug === "half-silk-traditional-handloom-saree"
+    slug === "half-silk-traditional-handloom-saree" || slug === "half-done-sharee"
       ? "half-silk-handloom-sharee"
       : slug;
   const product = products.find((p) => p.slug === effectiveSlug);
@@ -49,7 +50,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function ProductDetailPage({ params }: Props) {
   const { slug } = await params;
   const effectiveSlug =
-    slug === "half-silk-traditional-handloom-saree"
+    slug === "half-silk-traditional-handloom-saree" || slug === "half-done-sharee"
       ? "half-silk-handloom-sharee"
       : slug;
   const product = products.find((p) => p.slug === effectiveSlug);
@@ -179,6 +180,32 @@ export default async function ProductDetailPage({ params }: Props) {
                 <span className="font-medium text-stone-900 text-right">{product.colors.join(", ")}</span>
               </div>
             </div>
+
+            {/* Official Technical Product Specification Sheet (Janani Weaving Factory) */}
+            {product.technicalSpecs && product.technicalSpecs.length > 0 && (
+              <div className="space-y-2 pt-2">
+                <div className="flex items-center gap-2">
+                  <span className="w-4 h-px bg-[#B88E3E]" />
+                  <span className="text-[11px] font-mono uppercase tracking-[0.2em] font-semibold text-stone-900">
+                    Official Factory Specification Sheet
+                  </span>
+                </div>
+                <div className="border border-stone-200 bg-[#FAF8F5] rounded-[1px] overflow-hidden text-xs font-sans">
+                  <div className="flex justify-between items-center px-4 py-2.5 bg-[#DDE5D4] text-stone-900 font-mono text-[11px] font-bold uppercase tracking-wider border-b border-stone-200">
+                    <span>Product Specification</span>
+                    <span>Details</span>
+                  </div>
+                  <div className="divide-y divide-stone-200">
+                    {product.technicalSpecs.map((spec) => (
+                      <div key={spec.label} className="flex justify-between items-center px-4 py-2.5">
+                        <span className="text-stone-600 font-mono text-[11px] uppercase tracking-wider">{spec.label}</span>
+                        <span className="text-stone-900 font-medium text-right">{spec.value}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
 
             {/* Corporate & Bespoke Inquiry CTAs */}
             <div className="pt-4 space-y-3">

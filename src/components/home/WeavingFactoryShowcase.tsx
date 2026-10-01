@@ -106,45 +106,49 @@ const factoryStages: FactoryStage[] = [
     id: "saree-lifestyle",
     stepNum: "04",
     bengaliStep: "পর্যায় ০৪",
-    title: "Heirloom Tant & Jamdani Border Sarees in Graceful Drape",
-    bengaliTitle: "শাড়ি পরা রমণীর চিরন্তন আভিজাত্য — তাঁতের শাড়ি সম্ভার",
-    subtitle: "Authentic Bengali women draped in handloom sarees across heritage courtyards and studio settings",
-    bengaliSubtitle: "বাংলার নারীর অকৃত্রিম স্নিগ্ধতা ও ঐতিহ্যের জীবন্ত প্রতিচ্ছবি",
+    title: "M/S Janani Weaving Factory Half-Done Sharee (H/S)",
+    bengaliTitle: "মেসার্স জননী উইভিং ফ্যাক্টরি হাফ-ডান শাড়ি (১৪ হাত)",
+    subtitle: "Authentic 14 Haat (7 Yards) Handloom Sharee with 36\" Blouse Piece",
+    bengaliSubtitle: "৫০% রেশম ও ৫০% পিওর কটন বয়ন, ৩৬ ইঞ্চি ব্লাউজ পিস ও এক্সক্লুসিভ পলিয়েস্টার পাড়",
     primaryImage: "/images/saree_sage_blue_model_full.png",
     secondaryImage: "/images/saree_sage_blue_pallu_macro.png",
-    primaryAlt: "Bengali model seated in handloom Tant cotton saree in sheer sage green with royal-blue geometric anchal and yellow star boutis",
+    primaryAlt: "Bengali model draped in authentic handloom Half-Done Sharee in sheer sage green with royal-blue geometric anchal and star boutis",
     secondaryAlt: "Macro close-up of extra-weft diamond border, hand-thrown shuttle texture, and embroidered star boutis",
     galleryImages: [
       {
         image: "/images/saree_sage_blue_model_standing.png",
-        alt: "Standing graceful drape flow of sage-green and royal-blue handloom saree",
-        label: "Drape Flow Perspective",
-        bengaliLabel: "পূর্ণাঙ্গ শাড়ি ড্র্যাপ ও আঁচল",
+        alt: "Standing graceful drape flow of sage-green and royal-blue 14 Haat Half-Done Sharee",
+        label: "Drape Flow Perspective (14 Haat)",
+        bengaliLabel: "১৪ হাত পূর্ণাঙ্গ শাড়ি ড্র্যাপ ও আঁচল",
       },
       {
         image: "/images/saree_courtyard_lifestyle_drape.jpg",
-        alt: "Bengali woman wearing handloom Tant saree in village courtyard veranda",
+        alt: "Bengali woman wearing handloom Half-Done Sharee in village courtyard veranda",
         label: "Courtyard Heritage Drape",
         bengaliLabel: "গ্রামীণ আঙিনায় ঐতিহ্যবাহী রূপ",
       },
       {
         image: "/images/saree_pallu_studio_exhibition.jpg",
-        alt: "Handloom Tant saree in indigo and terracotta draped over vintage wooden loom frame in atelier",
+        alt: "Handloom Half-Done Sharee draped over vintage wooden loom frame in atelier",
         label: "Atelier Loom Display",
         bengaliLabel: "তাঁত কাঠামে শাড়ির নান্দনিক বিন্যাস",
       },
     ],
     description:
-      "The crowning creational glory of Janani Weaving Factory is the Bengali handloom saree. Captured in real-life dignity: draped in flowing folds over the shoulder, moving with effortless grace through tropical daylight, and adorned with geometric diamond temple borders and hand-knotted tassels.",
+      "The crowning creational glory of Janani Weaving Factory in Manikganj is our authentic Half-Done Sharee (হাফ-ডান শাড়ি). Masterfully woven on traditional wooden pit-looms with a balanced 50% Silk + 50% Pure Cotton main fabric composition, each saree measures an expansive 14 Haat (7 Yards) length, accompanied by a 36-inch Blouse Piece tailored from Rayon + Silk and an elegant, durable Polyester Par (border) with extra-weft geometric diamond motifs and hand-knotted dual-tone tassels.",
     specs: [
-      { label: "Saree Dimensions", value: "Traditional 12 Haat (approx. 5.5 meters)" },
-      { label: "Border Architecture", value: "Extra-weft geometric diamond border (জাফরি পাড়)" },
-      { label: "Pallu / Anchal Artistry", value: "Hand-knotted dual-tone silk tassel fringe with floral star boutis" },
+      { label: "Company Name", value: "Janani Weaving Factory" },
+      { label: "Product Name", value: "Half-Done Sharee" },
+      { label: "Sharee Length", value: "14 Haat (7 Yards)" },
+      { label: "Main Fabric Composition", value: "50% Silk + 50% Pure Cotton" },
+      { label: "Blouse Piece", value: "36 Inches" },
+      { label: "Blouse Fabric", value: "Rayon + Silk" },
+      { label: "Par", value: "Polyester" },
       { label: "Weaving Hub", value: "M/S Janani Weaving Factory, Manikganj" },
     ],
-    highlight: "বাংলার আবহাওয়ার সাথে নিখুঁতভাবে মানানসই—হালকা, আরামদায়ক এবং সর্বজনীন আভিজাত্যের প্রতীক।",
-    actionHref: "/collections#sarees",
-    actionLabel: "View Saree Collection",
+    highlight: "১৪ হাত (৭ গজ) পূর্ণ দৈর্ঘ্য ও ৩৬ ইঞ্চি ব্লাউজ পিস—৫০% সিল্ক ও ৫০% পিওর কটনের অতুলনীয় হস্তচালিত তাঁত বয়ন।",
+    actionHref: "/collections/half-silk-handloom-sharee",
+    actionLabel: "View Half-Done Sharee",
   },
 ];
 
@@ -173,7 +177,7 @@ export function WeavingFactoryShowcase() {
             </div>
 
             <p className="text-base sm:text-lg text-stone-700 font-sans leading-relaxed pt-1 max-w-2xl">
-              উন্নত মানের এন্ডি থান, হাফ-সিল্ক শাড়ি ও ওড়না তৈরির পল্লী তাঁত প্রকল্প। মানিকগঞ্জের সাকরাইলে
+              উন্নত মানের এন্ডি থান, হাফ-ডান (১৪ হাত) শাড়ি ও ওড়না তৈরির পল্লী তাঁত প্রকল্প। মানিকগঞ্জের সাকরাইলে
               কাঠের পিট-লুমে তৈরি খাঁটি প্রাকৃতিক সুতি ও রেশম বয়ন শিল্প।
             </p>
           </div>
@@ -248,13 +252,19 @@ export function WeavingFactoryShowcase() {
                     </p>
 
                     {/* Specifications Box */}
-                    <div className="border border-stone-200 bg-[#FAF8F5] rounded-[1px] divide-y divide-stone-200 text-xs font-sans">
-                      {stage.specs.map((item) => (
-                        <div key={item.label} className="flex justify-between items-center px-4 py-2.5">
-                          <span className="text-stone-500 font-mono text-[11px] uppercase tracking-wider">{item.label}</span>
-                          <span className="text-stone-900 font-medium text-right">{item.value}</span>
-                        </div>
-                      ))}
+                    <div className="border border-stone-200 bg-[#FAF8F5] rounded-[1px] overflow-hidden text-xs font-sans">
+                      <div className="flex justify-between items-center px-4 py-2 bg-[#DDE5D4] text-stone-900 font-mono text-[11px] font-bold uppercase tracking-wider border-b border-stone-200">
+                        <span>Product Specification</span>
+                        <span>Details</span>
+                      </div>
+                      <div className="divide-y divide-stone-200">
+                        {stage.specs.map((item) => (
+                          <div key={item.label} className="flex justify-between items-center px-4 py-2.5">
+                            <span className="text-stone-600 font-mono text-[11px] uppercase tracking-wider">{item.label}</span>
+                            <span className="text-stone-900 font-medium text-right">{item.value}</span>
+                          </div>
+                        ))}
+                      </div>
                     </div>
 
                     {/* Heritage Highlight */}

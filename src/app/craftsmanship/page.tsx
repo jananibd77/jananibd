@@ -68,7 +68,7 @@ export default function CraftsmanshipPage() {
       image: "/images/jamdani_hero_loom.jpg",
       href: "/collections?category=jamdani",
       description:
-        "The rhythmic clack of the wooden pit-loom has resonated across Bengal's villages for centuries. Woven by hand without electrical automation, our handloom textiles preserve the delicate balance of warp and weft tension that makes deshi cotton and half-silk so light and breathable.",
+        "The rhythmic clack of the wooden pit-loom has resonated across Bengal's villages for centuries. Woven by hand without electrical automation, our handloom textiles preserve the delicate balance of warp and weft tension that makes deshi cotton, Endi silk, and Half-Done sarees so light and breathable.",
       techniques: [
         "Manual yarn sizing and warp preparation using rice starch",
         "Traditional wooden pit-looms operated with rhythmic foot treadles and hand shuttles",

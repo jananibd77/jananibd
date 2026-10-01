@@ -32,12 +32,12 @@ export const siteConfig = {
       name: "M/S Janani Weaving Factory",
       bengaliName: "মেসার্স জননী উইভিং ফ্যাক্টরি",
       subtitle: "A Rural hand loom project of quality Endi Fab. H/S Sharee & Orna",
-      bengaliSubtitle: "উন্নত মানের এন্ডি থান, হাফ-সিল্ক শাড়ি ও ওড়না তৈরির পল্লী তাঁত প্রকল্প",
+      bengaliSubtitle: "উন্নত মানের এন্ডি থান, হাফ-ডান শাড়ি ও ওড়না তৈরির পল্লী তাঁত প্রকল্প",
       description:
-        "Our celebrated rural handloom enterprise operating traditional wooden pit-looms. Renowned across Bangladesh for superfine Endi silk fabric (Than Kapor), heirloom Half-Silk (H/S) Sarees, and delicately woven Orna / Dupatta.",
+        "Our celebrated rural handloom enterprise operating traditional wooden pit-looms. Renowned across Bangladesh for superfine Endi silk fabric (Than Kapor), signature Half-Done (H/S) Sarees (14 Haat / 7 Yards), and delicately woven Orna / Dupatta.",
       products: [
         "Quality Endi Fabric (Than Kapor)",
-        "Half-Silk (H/S) Sharee",
+        "Half-Done (H/S) Sharee (14 Haat / 7 Yards)",
         "Handloom Endi Silk Orna / Dupatta",
         "Pure Silk & Cotton Handloom Yardage",
       ],
@@ -85,11 +85,11 @@ export const siteConfig = {
   contact: {
     address: "Sakrail, Gorpara, Manikgonj, Bangladesh",
     bengaliAddress: "সাকরাইল, গড়পাড়া, মানিকগঞ্জ, বাংলাদেশ",
-    phoneNumbers: ["01713-574686", "01932-605971", "01689-703060"],
-    primaryPhone: "01713-574686",
-    phone: "01713-574686",
+    phoneNumbers: ["01768-109024", "01713-574686", "01932-605971", "01689-703060"],
+    primaryPhone: "01768-109024",
+    phone: "01768-109024",
     email: "jananibd77@gmail.com",
-    whatsapp: "+8801713574686",
+    whatsapp: "+8801768109024",
     hours: "Saturday – Thursday: 9:00 AM – 8:00 PM (BST)",
   },
 
@@ -97,10 +97,10 @@ export const siteConfig = {
     name: "Janani Weaving Factory",
     bengaliName: "জননী উইভিং ফ্যাক্টরি",
     description:
-      "Our celebrated rural handloom enterprise operating traditional wooden pit-looms. Renowned across Bangladesh for superfine Endi silk fabric (Than Kapor), heirloom Half-Silk (H/S) Sarees, and delicately woven Orna / Dupatta.",
+      "Our celebrated rural handloom enterprise operating traditional wooden pit-looms. Renowned across Bangladesh for superfine Endi silk fabric (Than Kapor), signature Half-Done (H/S) Sarees (14 Haat), and delicately woven Orna / Dupatta.",
     focus: [
       "Quality Endi Fabric (Than Kapor)",
-      "Half-Silk (H/S) Sharee",
+      "Half-Done (H/S) Sharee (14 Haat)",
       "Handloom Endi Silk Orna / Dupatta",
       "Handloom Yardage",
     ],
@@ -119,7 +119,7 @@ export const siteConfig = {
     collections: [
       { label: "Exclusive Panjabi & Fatua", href: "/collections?category=traditional-wear" },
       { label: "Artisanal Three-Piece (থ্রি-পিস)", href: "/collections/exclusive-handloom-embroidered-three-piece" },
-      { label: "Janani Weaving Factory (Endi & Sarees)", href: "/collections?category=weaving-factory" },
+      { label: "Janani Weaving Factory (Endi & Half-Done Sarees)", href: "/collections?category=weaving-factory" },
       { label: "Nakshi Kantha", href: "/collections?category=nakshi-kantha" },
       { label: "Home Textiles", href: "/collections?category=home-textiles" },
       { label: "Bamboo & Cane", href: "/collections?category=bamboo-cane" },

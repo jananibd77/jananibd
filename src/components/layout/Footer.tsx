@@ -43,13 +43,36 @@ export function Footer() {
               and sustainable agricultural distribution in Manikganj.
             </p>
 
-            <div className="pt-2 text-stone-900 text-xs font-mono space-y-1.5 border-t border-stone-400">
+            {/* Main Highlighted Hotline & Contact */}
+            <div className="pt-2 text-stone-900 text-xs font-mono space-y-2 border-t border-stone-400/80">
+              {/* Highlighted Main Number Card */}
+              <div className="bg-white/70 border border-[#B88E3E]/60 p-3 rounded-[1px] flex items-center justify-between gap-3 shadow-[0_1px_3px_rgba(0,0,0,0.03)]">
+                <div>
+                  <span className="text-[10px] uppercase tracking-[0.22em] font-bold text-[#A84A28] block">
+                    Main Hotline &amp; Direct Order
+                  </span>
+                  <a
+                    href="tel:01768109024"
+                    className="font-mono text-base sm:text-lg font-bold text-stone-950 hover:text-[#A84A28] transition-colors tracking-wide inline-flex items-center gap-1.5"
+                  >
+                    <span>📞</span>
+                    <span>01768-109024</span>
+                  </a>
+                </div>
+                <a
+                  href="tel:01768109024"
+                  className="inline-flex items-center justify-center px-3 py-1.5 bg-[#A84A28] hover:bg-[#8B381A] text-white text-[11px] font-sans font-bold uppercase tracking-wider rounded-[1px] transition-colors shrink-0"
+                >
+                  Call Now
+                </a>
+              </div>
+
               <p>
                 <strong className="text-stone-700 uppercase">Head Office:</strong> {siteConfig.contact.address}
               </p>
               <p className="break-words">
-                <strong className="text-stone-700 uppercase">Direct Cells:</strong>{" "}
-                {siteConfig.contact.phoneNumbers.join(" · ")}
+                <strong className="text-stone-700 uppercase">Secondary Lines:</strong>{" "}
+                01713-574686 · 01932-605971 · 01689-703060
               </p>
               <p className="break-all sm:break-normal">
                 <strong className="text-stone-700 uppercase">Official Email:</strong> {siteConfig.contact.email}
@@ -79,7 +102,7 @@ export function Footer() {
                 >
                   M/S Janani Weaving Factory
                 </Link>
-                <span className="block text-[11px] text-stone-500">Quality Endi Fab, H/S Sharee &amp; Orna</span>
+                <span className="block text-[11px] text-stone-500">Quality Endi Fab, Half-Done (H/S) Sharee &amp; Orna</span>
               </li>
               <li className="pt-1">
                 <Link

@@ -40,6 +40,7 @@ export interface Product {
     craftingDuration: string;
   };
   careInstructions: string[];
+  technicalSpecs?: { label: string; value: string }[];
 }
 
 export const products: Product[] = [
@@ -283,33 +284,39 @@ export const products: Product[] = [
     ],
   },
 
-  // 4. Janani Weaving Factory: Royal Blue & Magenta Tant Cotton Saree
+  // 4. Janani Weaving Factory: Signature Half-Done Sharee (H/S) — 14 Haat
   {
     id: "prod-saree-01",
     slug: "half-silk-handloom-sharee",
-    name: "M/S Janani Royal Blue & Magenta Tant Handloom Saree",
-    bengaliName: "মেসার্স জননী রয়্যাল ব্লু ও ম্যাজেন্টা তাঁতের শাড়ি",
+    name: "M/S Janani Weaving Factory Half-Done Sharee (H/S)",
+    bengaliName: "মেসার্স জননী উইভিং ফ্যাক্টরি হাফ-ডান শাড়ি (১৪ হাত)",
     sisterConcern: "Janani Weaving Factory",
     category: "weaving-factory",
-    categoryLabel: "Janani Weaving Factory",
+    categoryLabel: "Half-Done Sharee (হাফ-ডান শাড়ি)",
     shortDescription:
-      "Traditional royal blue handloom Tant saree with cyan star boutis, horizontal magenta-cyan geometric borders, gold zari highlights, and hand-tied tassels.",
+      "Authentic 14 Haat (7 Yards) handloom Half-Done Sharee crafted from 50% Silk + 50% Pure Cotton with 36\" Blouse Piece (Rayon + Silk) and Polyester Par.",
     description:
-      "A crowning specialty of M/S Janani Weaving Factory in Manikganj. Woven on traditional shuttle pit-looms from fine breathable cotton, this saree features delicate cyan floral star motifs sprinkled across a vibrant royal blue field. The wide borders and pallu are framed by geometric horizontal bands in magenta and cyan, accented with subtle antique gold threadwork and handcrafted tassel fringes.",
+      "Official technical specification from Janani Weaving Factory in Manikganj. Handcrafted on traditional wooden pit-looms with a balanced 50% Silk + 50% Pure Cotton main fabric composition for superior drape and breathability. Measured to an expansive 14 Haat (7 Yards) full saree drape length, paired with a matching 36-inch Blouse Piece (Rayon + Silk) and a durable Polyester Par (border) featuring extra-weft geometric diamond motifs and hand-knotted dual-tone tassels.",
     images: {
       main: "/images/saree_royalblue_tant_mannequin.png",
       detail: "/images/saree_pallu_tassel_macro_detail.png",
       lifestyle: "/images/saree_royalblue_tant_mannequin.png",
     },
-    materials: ["100% Combed Deshi Cotton", "Extra-Weft Zari Accents", "Hand-Tied Dual-Tone Tassels"],
-    dimensions: "5.5 meters length with 80cm matching unstitched blouse fabric",
+    materials: [
+      "50% Silk + 50% Pure Cotton (Main Fabric Composition)",
+      "Rayon + Silk (36\" Blouse Fabric)",
+      "Polyester Par (Border)",
+      "Extra-Weft Geometric Motifs",
+      "Hand-Tied Dual-Tone Tassels",
+    ],
+    dimensions: "Sharee Length: 14 Haat (7 Yards) · Blouse Piece: 36 Inches · Width: 46 Inches",
     colors: ["Royal Blue with Magenta & Cyan", "Gold Zari Accents"],
     availability: "Handcrafted on Commission",
     featured: true,
     newArrival: true,
     handmade: true,
     craftInfo: {
-      origin: "M/S Janani Weaving Factory, Manikgonj handloom sheds",
+      origin: "M/S Janani Weaving Factory, Sakrail, Gorpara, Manikgonj",
       technique: "Traditional shuttle pit-loom with extra-weft motif borders",
       artisanRole: "Master Handloom Saree Artisan (কারিগর তাঁতি)",
       craftingDuration: "8 to 12 days on the loom",
@@ -319,6 +326,16 @@ export const products: Product[] = [
       "Gentle cold hand wash with mild liquid soap",
       "Store folded neatly in breathable cotton wrap",
       "Warm steam iron on reverse side",
+    ],
+    technicalSpecs: [
+      { label: "Company Name", value: "Janani Weaving Factory" },
+      { label: "Product Name", value: "Half-Done Sharee" },
+      { label: "Sharee Length", value: "14 Haat (7 Yards)" },
+      { label: "Main Fabric Composition", value: "50% Silk + 50% Pure Cotton" },
+      { label: "Blouse Piece", value: "36 Inches" },
+      { label: "Blouse Fabric", value: "Rayon + Silk" },
+      { label: "Par", value: "Polyester" },
+      { label: "Weaving Hub", value: "M/S Janani Weaving Factory, Manikganj" },
     ],
   },
 
@@ -1246,7 +1263,7 @@ export const products: Product[] = [
       "Antique Metallic Zari Weft Threads",
       "Hand-Knotted Pallu Tassels",
     ],
-    dimensions: "Standard Bengali length: 12 Haat (approx. 5.5m), width: 46 inches",
+    dimensions: "Traditional Bengali length: 14 Haat (7 Yards) with unstitched blouse piece, width: 46 inches",
     colors: ["Deep River Indigo with Terracotta & Brass Gold Border", "Serene Ivory with Crimson"],
     availability: "Active Handloom Production",
     featured: true,

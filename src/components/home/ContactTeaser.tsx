@@ -30,10 +30,15 @@ export function ContactTeaser() {
               institutional buyers. Visit our Manikganj weaving sheds or consult directly with our studio karigars.
             </p>
 
-            <div className="pt-2 flex flex-wrap items-center gap-y-2 gap-x-4 sm:gap-x-6 text-xs sm:text-sm font-mono text-stone-600">
+            <div className="pt-2 flex flex-wrap items-center gap-y-2 gap-x-4 sm:gap-x-6 text-xs sm:text-sm font-mono text-stone-700">
               <span><strong>Head Office:</strong> {siteConfig.contact.address}</span>
               <span className="text-stone-300">·</span>
-              <span><strong>Direct:</strong> {siteConfig.contact.phoneNumbers[0]}</span>
+              <a
+                href={`tel:${siteConfig.contact.primaryPhone.replace(/-/g, "")}`}
+                className="font-bold text-[#A84A28] hover:text-[#8B381A] transition-colors inline-flex items-center gap-1"
+              >
+                <span>📞 <strong>Hotline:</strong> {siteConfig.contact.primaryPhone}</span>
+              </a>
             </div>
           </div>
 

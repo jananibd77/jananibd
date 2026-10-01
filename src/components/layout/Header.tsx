@@ -144,6 +144,18 @@ export function Header() {
               })}
             </nav>
 
+            {/* RIGHT DESKTOP: Main Hotline Highlighted CTA */}
+            <div className="hidden lg:flex items-center gap-3">
+              <a
+                href="tel:01768109024"
+                className="inline-flex items-center gap-2 px-3 py-1.5 border border-[#B88E3E]/60 hover:border-[#A84A28] bg-white/70 hover:bg-[#FAF7F2] text-[#A84A28] hover:text-[#8B381A] text-xs font-mono font-bold tracking-wider rounded-[1px] transition-all shadow-[0_1px_3px_rgba(0,0,0,0.02)]"
+                title="Direct Order & Inquiry Hotline"
+              >
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                <span>01768-109024</span>
+              </a>
+            </div>
+
             {/* RIGHT: Mobile Menu Trigger (Mobile only) */}
             <div className="lg:hidden flex items-center text-stone-800">
               <button

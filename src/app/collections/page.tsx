@@ -5,7 +5,7 @@ import { CollectionsClient } from "./CollectionsClient";
 export const metadata: Metadata = {
   title: "Historical Craft Archive | Janani Permanent Collections",
   description:
-    "Explore the permanent historical craft archive of Janani Enterprise: authentic pit-loom Endi silk, Half-Silk sarees, Nakshi Kantha, bamboo-cane vessels, and handcrafted menswear from Manikganj, Bangladesh.",
+    "Explore the permanent historical craft archive of Janani Enterprise: authentic pit-loom Endi silk, Half-Done (14 Haat) sarees, Nakshi Kantha, bamboo-cane vessels, and handcrafted menswear from Manikganj, Bangladesh.",
 };
 
 export default function CollectionsPage() {

@@ -38,7 +38,7 @@ const craftItems: CraftItem[] = [
     slug: "sarees",
     name: "Exclusive Handloom Sarees",
     bengaliName: "এক্সক্লুসিভ তাঁতের শাড়ি",
-    tagline: "Heritage Tant and Half-Silk sarees — vibrant geometric mosaic borders handwoven on pit-looms.",
+    tagline: "Heritage Tant and Half-Done (14 Haat) sarees — vibrant geometric mosaic borders handwoven on pit-looms.",
     image: "/images/saree_magenta_mosaic_mannequin.png",
     href: "/collections#sarees",
   },

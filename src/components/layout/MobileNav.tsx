@@ -88,6 +88,19 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
             })}
           </nav>
         </div>
+
+        {/* Highlighted Hotline Call Action in Mobile Drawer */}
+        <div className="pt-6 mt-6 border-t border-stone-200 space-y-2">
+          <a
+            href="tel:01768109024"
+            className="w-full py-3 px-4 bg-[#A84A28] hover:bg-[#8B381A] text-white text-xs uppercase tracking-[0.2em] font-mono font-bold rounded-[1px] transition-colors flex items-center justify-center gap-2 text-center"
+          >
+            <span>📞 Call Hotline: 01768-109024</span>
+          </a>
+          <p className="text-[11px] font-mono text-stone-500 text-center">
+            Sakrail, Gorpara, Manikgonj
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -17,7 +17,7 @@ export function ContactClient() {
     if (initialConcern === "rapid-agro-care") {
       concern = "Rapid Agro Care (Fish Feed & Fish Cultivation)";
     } else if (initialConcern === "weaving-factory") {
-      concern = "M/S Janani Weaving Factory (Endi Fabric, H/S Sharee & Orna)";
+      concern = "M/S Janani Weaving Factory (Endi Fabric, Half-Done Sharee & Orna)";
     }
 
     return {
@@ -54,7 +54,7 @@ export function ContactClient() {
       role: "Traditional Pit-Loom Sheds",
       location: "Sakrail, Gorpara, Manikgonj",
       image: "/images/hero_artisan_weaver.jpg",
-      focus: "Endi Silk (Than Kapor), Half-Silk Sarees & Orna",
+      focus: "Endi Silk (Than Kapor), Half-Done (H/S) Sarees & Orna",
     },
     {
       id: "fac-craft",
@@ -134,15 +134,15 @@ export function ContactClient() {
 
         <div className="space-y-1 px-1 sm:px-3 pt-4 sm:pt-0">
           <span className="text-[10px] uppercase tracking-[0.25em] text-[#B88E3E] font-mono font-semibold block">
-            Direct Calls
+            Main Hotline &amp; Direct Orders
           </span>
           <a
-            href="tel:01713574686"
-            className="font-mono text-sm sm:text-base text-stone-900 font-semibold hover:text-[#A84A28] block transition-colors"
+            href="tel:01768109024"
+            className="font-mono text-base sm:text-lg text-stone-900 font-bold hover:text-[#A84A28] block transition-colors"
           >
-            01713-574686
+            01768-109024
           </a>
-          <p className="text-xs text-stone-500 font-mono">01932-605971 · 01689-703060</p>
+          <p className="text-[11px] text-stone-500 font-mono">01713-574686 · 01932-605971 · 01689-703060</p>
         </div>
 
         <div className="space-y-1 px-1 sm:px-3 pt-4 sm:pt-0">
@@ -295,8 +295,8 @@ export function ContactClient() {
                     <option value="M/S Janani Craft & Fashion (Exclusive Panjabi & Fatua)">
                       Janani Craft &amp; Fashion (Panjabi &amp; Fatua)
                     </option>
-                    <option value="M/S Janani Weaving Factory (Endi Fabric, H/S Sharee & Orna)">
-                      Janani Weaving Factory (Endi Fabric &amp; Sarees)
+                    <option value="M/S Janani Weaving Factory (Endi Fabric, Half-Done Sharee & Orna)">
+                      Janani Weaving Factory (Endi Fabric &amp; Half-Done Sarees)
                     </option>
                     <option value="Rapid Agro Care (Fish Feed & Fish Cultivation)">
                       Rapid Agro Care (Fish Feed &amp; Fish Cultivation)
@@ -370,10 +370,10 @@ export function ContactClient() {
           <p className="text-xs sm:text-sm text-stone-600 font-sans leading-relaxed">
             Our Sakrail facility is located ~55 km from Dhaka via Dhaka-Aricha Highway. Curators, designers,
             and institutional buyers may schedule an accompanied tour of active pit-looms and inspect physical
-            swatch books of pure Endi silk and half-silk yardage with 48 hours notice.
+            swatch books of pure Endi silk, Half-Done (14 Haat) saree yardage, and combed cotton with 48 hours notice.
           </p>
           <div className="pt-2 flex flex-col sm:flex-row sm:flex-wrap gap-2 sm:gap-3 text-xs font-mono text-stone-500">
-            <span>📞 01713-574686</span>
+            <span className="font-bold text-stone-800">📞 01768-109024</span>
             <span className="hidden sm:inline">·</span>
             <span className="break-all sm:break-normal">✉️ jananibd77@gmail.com</span>
           </div>

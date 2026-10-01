@@ -255,10 +255,10 @@ export function RapidAgroCareShowcase() {
               Contact Agro Care Hub &rarr;
             </Link>
             <Link
-              href="tel:01713574686"
-              className="inline-flex justify-center items-center px-6 py-3.5 border border-stone-300 hover:border-stone-900 text-stone-900 text-xs uppercase tracking-[0.2em] font-mono rounded-[1px] transition-colors text-center"
+              href="tel:01768109024"
+              className="inline-flex justify-center items-center px-6 py-3.5 border border-[#B88E3E]/60 hover:border-stone-900 text-stone-900 font-bold text-xs uppercase tracking-[0.2em] font-mono rounded-[1px] transition-colors text-center"
             >
-              Call: 01713-574686
+              Call: 01768-109024
             </Link>
           </div>
         </div>
