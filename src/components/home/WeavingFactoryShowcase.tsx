@@ -24,7 +24,7 @@ interface FactoryStage {
   }[];
   description: string;
   specs: { label: string; value: string }[];
-  highlight: string;
+  highlight?: string;
   actionHref: string;
   actionLabel: string;
 }
@@ -48,9 +48,8 @@ const factoryStages: FactoryStage[] = [
       { label: "Loom Architecture", value: "Traditional Wooden Pit-Looms (মাটির গর্তের তাঁত)" },
       { label: "Weaving Hub", value: "Sakrail, Gorpara, Manikgonj" },
       { label: "Shuttle Craft", value: "Polished Teakwood Flying Shuttle (হাতে চালিত মাকু)" },
-      { label: "Daily Output", value: "4 to 6 yards per artisan loom" },
+      { label: "Daily Output", value: "10 to 13 yards per artisan loom" },
     ],
-    highlight: "১০০% বিদ্যুৎহীন কায়িক শ্রমে নির্মিত খাঁটি হস্তচালিত ঐতিহ্যবাহী তাঁত শিল্প।",
     actionHref: "/collections?category=weaving-factory",
     actionLabel: "Explore Factory Line",
   },
@@ -268,11 +267,13 @@ export function WeavingFactoryShowcase() {
                     </div>
 
                     {/* Heritage Highlight */}
-                    <div className="p-4 bg-white border-l-2 border-[#A84A28] border border-stone-200 rounded-[1px]">
-                      <p className="font-serif-bengali text-sm sm:text-base text-[#A84A28] leading-relaxed">
-                        {stage.highlight}
-                      </p>
-                    </div>
+                    {stage.highlight && (
+                      <div className="p-4 bg-white border-l-2 border-[#A84A28] border border-stone-200 rounded-[1px]">
+                        <p className="font-serif-bengali text-sm sm:text-base text-[#A84A28] leading-relaxed">
+                          {stage.highlight}
+                        </p>
+                      </div>
+                    )}
 
                     {/* Action Link */}
                     <div className="pt-1">
